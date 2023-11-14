@@ -1,10 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Carousel } from "./components/common/carousel/Carousel";
 
 function App() {
+  const [images, setImages] = useState<string[]>([]);
+
+  useEffect(() => {
+    const resources = require.context("./assets/images", true);
+    setImages(resources.keys().map((key) => resources(key)));
+  }, []);
+
   return (
     <div className="App">
+      <Carousel images={images} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

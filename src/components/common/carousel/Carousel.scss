@@ -1,0 +1,13 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item img {
+  width: 20rem;
+  height: 15rem;
+}
