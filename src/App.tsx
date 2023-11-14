@@ -13,9 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <Carousel images={images} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Carousel images={images} />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

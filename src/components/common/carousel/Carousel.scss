@@ -1,10 +1,16 @@
 .carousel {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel-inner {
-    display: flex;
+  display: flex;
+}
+
+.carousel-item {
+  width: 20rem;
+  height: 15rem;
+  cursor: grab;
 }
 
 .carousel-item img {
