@@ -1,3 +1,5 @@
+[carousel.webm](https://github.com/stormjin04/inertia-gsap-carousel/assets/137207302/5b04a348-0b01-4974-9a8e-65c8d21e8614)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
